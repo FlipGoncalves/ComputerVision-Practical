@@ -165,7 +165,6 @@ cv2.destroyWindow( "deti_gray" )
 
 # video capture source camera (Here webcam of laptop)
 
-
 cam = cv2.VideoCapture(0)
 
 cv2.namedWindow("test")
@@ -186,26 +185,11 @@ while True:
         break
     elif k%256 == 32:
         # SPACE pressed
-        img_name = "images/opencv_frame_{}.png".format(img_counter)
-        cv2.imwrite(img_name, frame)
-        print("{} written!".format(img_name))
+        cv2.imwrite("images/opencv_frame_{}.png".format(img_counter), frame)
+        cv2.imwrite("images/opencv_frame_{}.jpeg".format(img_counter), frame)
+        print(f"{'images/opencv_frame_{}.jpeg'.format(img_counter)} written!")
         img_counter += 1
 
 cam.release()
-
-cv2.destroyAllWindows()
-
-# Create a vsiualization window (optional)
-# CV_WINDOW_AUTOSIZE : window size will depend on image sizef
-cv2.namedWindow( "Photo Taken from Computer", cv2.WINDOW_AUTOSIZE )
-
-# Show the image
-cv2.imshow("Photo Taken from Computer", frame)
-
-# write to file
-cv2.imwrite('images/phototaken.png',frame)
-cv2.imwrite('images/phototaken.jpeg',frame)
-
-cv2.waitKey(0)
 
 cv2.destroyAllWindows()
