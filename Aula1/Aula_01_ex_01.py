@@ -176,17 +176,19 @@ while True:
     if not ret:
         print("failed to grab frame")
         break
+
     cv2.imshow("test", frame)
 
     k = cv2.waitKey(1)
-    if k%256 == 27:
-        # ESC pressed
-        print("Escape hit, closing...")
+
+    if k == ord("q"):
         break
     elif k%256 == 32:
         # SPACE pressed
+
         cv2.imwrite("images/opencv_frame_{}.png".format(img_counter), frame)
         cv2.imwrite("images/opencv_frame_{}.jpeg".format(img_counter), frame)
+        
         print(f"{'images/opencv_frame_{}.jpeg'.format(img_counter)} written!")
         img_counter += 1
 
