@@ -1,10 +1,8 @@
- # Aula_01_ex_01.py
- #
- # Example of visualization of an image with openCV
- #
- # Paulo Dias - 09/2021
- #
- # Student: Filipe Gonçalves - 98083
+# Aula_01_ex_01.py
+#
+# Example of visualization of an image with openCV
+#
+# Filipe Gonçalves - 09/2022
 
 
 #import

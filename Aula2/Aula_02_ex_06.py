@@ -1,4 +1,8 @@
 # Aula_02_ex_06.py
+# 
+# Historam visualization with openCV
+#
+# Filipe Gonçalves - 09/2022
 
 # import
 import cv2

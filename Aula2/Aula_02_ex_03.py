@@ -2,7 +2,7 @@
 #
 # Historam visualization with openCV
 #
-# Paulo Dias - 09/2021
+# Filipe Gonçalves - 09/2022
 
 #import
 import sys

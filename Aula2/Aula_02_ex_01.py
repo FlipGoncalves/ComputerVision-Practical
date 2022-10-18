@@ -2,8 +2,7 @@
 #
 # Drawing of 2D primitives and user Interaction
 #
-# Paulo Dias - 09/2021
-
+# Filipe Gonçalves - 09/2022
 
 # import
 import numpy as np

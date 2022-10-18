@@ -1,6 +1,8 @@
 # Aula_02_ex_02.py
 #
 # Drawing of Grid
+#
+# Filipe Gonçalves - 09/2022
 
 
 # import
@@ -33,6 +35,6 @@ cv2.imshow("Grid", image)
 
 cv2.imwrite("images/grid_image.png", image)
 
-cv2.waitKey(5000)
+cv2.waitKey(-1)
 
 cv2.destroyAllWindows()
