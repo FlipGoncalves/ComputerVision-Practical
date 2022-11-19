@@ -1,6 +1,6 @@
-# Aula_05_exe_01.py
+# Aula_05_exe_03.py
 #
-# Chessboard Calibration
+# Camera Calibration 
 #
 # Filipe Gonçalves - 11/2022
 

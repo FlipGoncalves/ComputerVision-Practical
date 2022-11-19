@@ -1,6 +1,6 @@
 # Aula_05_exe_01.py
 #
-# Chessboard Calibration
+# Cube Inprinting in Video Capture
 #
 # Filipe Gonçalves - 11/2022
 

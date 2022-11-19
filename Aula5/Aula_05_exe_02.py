@@ -1,6 +1,6 @@
-# Aula_05_exe_01.py
+# Aula_05_exe_02.py
 #
-# Chessboard Calibration
+# Referencial Imprinting in calirated image
 #
 # Filipe Gonçalves - 11/2022
 
