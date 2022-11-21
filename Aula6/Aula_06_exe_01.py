@@ -36,8 +36,8 @@ left_corners = [] # 2d points in image plane.
 right_corners = [] # 2d points in image plane.
 
 # Read images
-images_l = glob.glob('./images/left*.jpg')
-images_r = glob.glob('./images/right*.jpg')
+images_l = sorted(glob.glob('./images/left*.jpg'))
+images_r = sorted(glob.glob('./images/right*.jpg'))
 
 for fname_l, fname_r in zip(images_l, images_r):
     img_l = cv2.imread(fname_l)
